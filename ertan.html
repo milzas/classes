@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Portfolio</title>
+<style>
+    * {
+        margin: 0;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    /* NAVBAR */
+    #navbar {
+        display: block;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(212, 212, 212);
+    }
+
+    #navbar a {
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    #navbar a:hover {
+        cursor: pointer;
+        color: royalblue;
+    }
+
+    #navbar ul li,
+    ul {
+
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    #logo {
+        height: 40px;
+        width: 40px;
+        vertical-align: middle;
+    }
+
+    #logocon {
+        margin: 15px;
+        display: inline-block;
+    }
+
+    .Sections {
+        height: 250px;
+    }
+
+    /*HERO-SECTION*/
+    .text {
+        display: inline-block;
+        margin: 5px;
+        width: 600px;
+    }
+
+    #pic {
+        float: right;
+    }
+
+
+    button {
+        height: 30px;
+        width: 80px;
+        margin: 5px;
+        text-decoration: none;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    #butt1 {
+        background-color: royalblue;
+        color: white;
+    }
+
+    #butt2 {
+        background-color: white;
+        color: black;
+    }
+
+    .text h1 {
+        padding-bottom: 10px;
+    }
+
+    .text a {
+        text-decoration: none;
+    }
+
+    #butt1:hover,
+    #butt2:hover {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logocon"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png"
+                alt="Logo" id="logo">
+            <ul>
+                <li><a href="#home"><strong>Home</strong></a></li>
+
+                <li><a href="#about-me"><strong>About Me</strong></a></li>
+
+                <li><a href="#projects"><strong>Projects</strong></a></li>
+
+                <li><a href="#contact"><strong>Contact</strong></a></li>
+
+                <li><a href="#Email"><strong>Email Me</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="Sections">
+        <div class="text">
+            <h1>This is my portfolio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Fusce ipsum ex, molestie vel placerat non, ultrices at velit.
+                Suspendisse nec justo aliquet, pretium odio a, pellentesque dui.
+                Aliquam luctus neque at massa blandit tristique.
+                Nunc commodo tortor sed nisi aliquam sollicitudin.
+            </p>
+            <a href="" target="blank">
+                <button id="butt1" type="button">Button</button>
+            </a>
+            <a href="" target="blank">
+                <button id="butt2" type="button">Button</button>
+            </a>
+        </div>
+
+        <div id="pic">
+            <img src="https://i.pinimg.com/474x/b1/4f/f3/b14ff37dadca731a0b4ae5d4f9be2673--profile-pictures-dose.jpg"
+                alt="" width="250px" height="200px" />
+        </div>
+    </section>
+
+    <section id="about-me" class="Sections">
+
+        <p>Hello I am Ertan Muslic</p>
+        <p>I am student of IT.</p>
+        <p>Currently learning HTML,even while i'am writing this.</p>
+    </section>
+
+    <section id="projects" class="Sections">
+
+        <h2>These are the projects I did</h2>
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+
+    </section>
+
+    <section id="contact" class="Sections">
+
+        <h2>Contact me on:</h2>
+        <a href="https://github.com/ErtanMuslic" target="_Blank">
+            <img src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png" alt=""
+                width="30px" height="30px" />
+        </a>
+
+    </section>
+
+    <section id="Email" class="Sections">
+
+        <h2>Send me Email</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required minlength="5" placeholder="Enter Name">
+            <br />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <br />
+            <textarea name="" id="" cols="30" rows="10">Enter message</textarea>
+            <br />
+            <input type="submit" value="Save">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
