@@ -1,0 +1,22 @@
+
+.silka{
+   display: inline-block;
+}
+.text{
+    display: inline-block;
+}
+div{
+    display: inline-block;
+    width: 19%;
+   
+}
+
+@media screen and (max-width: 600px){
+    div{
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+    
+}
+

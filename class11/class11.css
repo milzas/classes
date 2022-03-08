@@ -1,0 +1,41 @@
+#d1{
+    float: left;
+    width: 70%;
+   
+    height: 100vh;
+    box-sizing: border-box;
+  
+    
+    
+}
+#d2{
+    height: 100vh;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+
+}
+#fname{
+    width: 80%;
+}
+#em{
+    width: 80%;
+}
+.dform{
+    width: 80%;
+    background-color:green;
+    padding:20px;
+    margin: 20px;
+    margin-top: 150px;
+    height: 60%;
+    position: absolute;
+    left:10%;
+    top: 20%;
+}
+.dtext{
+    background-color: green;
+    padding:20px;
+    margin: 20px;
+    margin-top: 150px;
+    height: 400px;
+}
