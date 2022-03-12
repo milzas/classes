@@ -1,0 +1,106 @@
+/* .pa{
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;*//*po glavnoj osi ----*/
+    /*align-items: flex-start;*//*suprotna osa |*/
+    /*flex-wrap: wrap;*//*elementi mogu da idu u novi red ako predju duzinu*/
+/*}
+.ch{
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+ 
+    
+}
+.ch1
+{
+        width: 25%;
+        height: 100px;
+        background-color: blueviolet;
+       
+        
+    } */
+#prvi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#s1{
+    display: flex;
+    
+   
+   
+}
+
+#s2{
+    display: flex;
+   
+    
+   
+}
+.d1{
+  
+   
+    background-color: rgb(168, 175, 161);
+    width: 600px;
+    height: 360px;
+    margin: 20px;
+}
+.d2{
+   
+    
+   
+    background-color: rgb(168, 175, 161);
+    width: 601px;
+    height: 361px; 
+    margin: 20px;
+}
+.d3{
+    
+    
+    
+    background-color: rgb(168, 175, 161);
+    width: 603px;
+   height: 363px;
+   margin: 20px;
+}
+.d4
+{
+   
+    background-color: rgb(168, 175, 161);
+    width: 602px;
+   height: 362px;
+   margin: 20px;
+}
+.d5{
+    
+    
+    background-color: rgb(168, 175, 161);
+    width: 605px;
+   height: 365px;
+   margin: 20px;
+}
+.d6{
+    
+   
+    background-color: rgb(168, 175, 161);
+    width: 606px;
+   height: 366px;
+   margin: 20px;
+}
+
+
+@media screen  and (max-width: 650px) {
+        #s1
+        {
+            flex-wrap: wrap;
+        }
+        #s2
+        {
+            flex-wrap: wrap;
+        }
+    
+}

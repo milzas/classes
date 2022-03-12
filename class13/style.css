@@ -1,0 +1,24 @@
+.pa{
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;/*po glavnoj osi ----*/
+    align-items: flex-start;/*suprotna osa |*/
+    flex-wrap: wrap;/*elementi mogu da idu u novi red ako predju duzinu*/
+}
+.ch{
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+ 
+    
+}
+.ch1
+{
+        width: 25%;
+        height: 100px;
+        background-color: blueviolet;
+       
+        
+    }
