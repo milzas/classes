@@ -1,0 +1,46 @@
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+#s2{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.karta{
+    
+    width: 40%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+
+    
+}
+
+
+.card2{
+    margin-left: 15px;
+
+}
+.topp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.timp{
+    margin: 50px 100px 50px 100px;
+    
+}
+
+
+@media screen and (max-width :960px) {
+    .karta{
+      width: 80%;
+    }
+}
+
+

@@ -8,7 +8,7 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
     font-size: 15px; /*za skrolanje kroz stranicu preko linkova,da skace kao da sklizne*/
 }
 body{
